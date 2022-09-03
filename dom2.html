@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        function a(){
+            var nname = document.getElementById("name")
+            nname.style.color = "green"
+
+            var nage = document.getElementById("age")
+            nage.style.color = "green"
+
+            var nbirth = document.getElementById("birthdate")
+            nbirth.style.color = "green"
+        }
+    </script>
+</head>
+<body>
+    <form>
+        Name : <input type="text" id="name" onmousedown="a()">
+        <p>Age : <input type="text" id="age" onmousedown="a()"></p>
+        <p>birthdate : <input type="text " id="birthdate" onmousedown="a()"></p>
+    </form>
+</body>
+</html>
